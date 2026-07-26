@@ -420,6 +420,7 @@ button:focus-visible {
 
 .process-card p {
   font-size: 0.92rem;
+  font-weight: 520;
   color: var(--text-secondary);
   line-height: 1.6;
 }
