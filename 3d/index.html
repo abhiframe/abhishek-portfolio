@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>3D Work — Abhishek</title>
+  <meta name="description" content="3D animation and visual work by Abhishek, Motion Designer & Video Editor.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Reuse your existing portfolio styling -->
+  
+<link rel="stylesheet" href="../style.css">
+
+<style>
+  /* 3D page only */
+  .video-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .video-card {
+    width: 100%;
+    max-width: none;
+  }
+
+  .video-card__frame {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-card__frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+     /* Next Project card */
+  .next-project-card {
+    background: #EEF3F8;
+    border-radius: 18px;
+    padding: 28px 32px;
+  }
+</style>
+
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+
+      <a href="../../index.html" class="nav__logo">ABHISHEK</a>
+
+      <nav class="nav__links" id="nav-links">
+        <a href="../../index.html#work">Work</a>
+        <a href="../../index.html#about">About</a>
+        <a href="../../index.html#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="../../assets/Abhishek_Verma_Resume.pdf"
+           target="_blank"
+           rel="noopener"
+           class="btn btn--primary nav__resume">
+          Resume
+        </a>
+
+        <button class="nav__toggle"
+                id="nav-toggle"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- PROJECT INTRODUCTION -->
+    <section class="project-hero" aria-label="Project introduction">
+
+      <a href="../../index.html" class="back-link reveal">
+        <span class="back-link__arrow" aria-hidden="true">&#8592;</span>
+        Back to Home
+      </a>
+
+      <h1 class="project-hero__heading reveal">3D Work</h1>
+
+      <p class="project-hero__subtitle reveal">
+        3D animation, character work, and cinematic visuals.
+      </p>
+
+    </section>
+
+    <!-- VIDEO SHOWCASE -->
+    <section class="video-section" aria-label="Video showcase">
+
+      <span class="video-section__label reveal">Featured Work</span>
+
+      <div class="video-card reveal">
+        <div class="video-card__frame">
+
+          <iframe
+            src="https://www.youtube.com/embed/vZUyVv7EdH4"
+            title="3D Work by Abhishek"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- NEXT PROJECT -->
+    <section class="next-project" aria-label="Next project">
+
+      <div class="section-head reveal">
+        <h2>Next Project</h2>
+      </div>
+
+      <a href="../talkin%20head/"
+         class="next-project-card reveal">
+
+        <span class="next-project-card__title">
+          Talking Head
+        </span>
+
+        <span class="next-project-card__arrow" aria-hidden="true">
+          &#8594;
+        </span>
+
+      </a>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <div>
+        <p class="footer__name">ABHISHEK</p>
+        <p class="footer__role">Motion Designer &amp; Video Editor</p>
+      </div>
+
+      <p class="footer__copy">&copy; 2026</p>
+
+    </div>
+  </footer>
+
+  <!-- Reuse your existing JavaScript -->
+  <script src="../script.js"></script>
+
+</body>
+</html>

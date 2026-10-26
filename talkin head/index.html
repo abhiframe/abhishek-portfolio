@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talking Head — Abhishek</title>
+  <meta name="description" content="Talking-head video editing by Abhishek, Motion Designer and Video Editor.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .talking-page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 140px 24px 80px;
+    }
+
+    .talking-back {
+      display: inline-block;
+      margin-bottom: 32px;
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.75;
+    }
+
+    .talking-back:hover {
+      opacity: 1;
+    }
+
+    .talking-heading {
+      margin-bottom: 36px;
+    }
+
+    .talking-heading h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      line-height: 1.1;
+      margin: 0 0 16px;
+      letter-spacing: -0.04em;
+    }
+
+    .talking-heading p {
+      max-width: 620px;
+      line-height: 1.7;
+      margin: 0;
+    }
+
+    
+.talking-video {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #EEF3F8;
+  aspect-ratio: 16 / 9;
+}
+
+.talking-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+    .talking-next {
+      margin-top: 64px;
+    }
+
+    .talking-next a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 30px;
+      border-radius: 18px;
+      background: #EEF3F8;
+      color: #17212b;
+      text-decoration: none;
+      transition: transform 180ms ease;
+    }
+
+    .talking-next a:hover {
+      transform: translateY(-3px);
+    }
+
+    .talking-next small {
+      display: block;
+      margin-bottom: 8px;
+      opacity: 0.65;
+    }
+
+    .talking-next h2 {
+      margin: 0;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+    }
+
+    .talking-next .arrow {
+      font-size: 2rem;
+    }
+
+    .talking-footer {
+      text-align: center;
+      padding: 24px;
+      opacity: 0.7;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      .talking-page {
+        padding: 110px 18px 56px;
+      }
+
+      .talking-next a {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="talking-page">
+    <a class="talking-back" href="../../index.html#work">
+      &#8592; Back to Selected Work
+    </a>
+
+    <header class="talking-heading">
+      <h1>Talking Head</h1>
+      <p>
+        Engaging talking-head videos with clean, polished editing,
+        thoughtful pacing, and a focus on keeping viewers watching.
+      </p>
+    </header>
+
+    <section aria-label="Talking Head video">
+      <div class="talking-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/OWKLZYLGMac"
+          title="Talking Head video by Abhishek"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+        
+       <div class="talking-video">
+  <iframe
+    src="https://www.youtube.com/embed/KfeoiLhybtc"
+    title="Talking Head Video 2"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div> 
+
+    </section>
+
+    <section class="talking-next" aria-label="Next project">
+      <a href="../AI%20Video%20Production/">
+        <div>
+          <small>Next Project &#8594;</small>
+          <h2>AI Video Production</h2>
+        </div>
+        <span class="arrow" aria-hidden="true">&#8599;</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="talking-footer">
+    ABHISHEK &mdash; Motion Designer &amp; Video Editor &mdash; &copy; 2026
+  </footer>
+</body>
+</html>
